@@ -26,7 +26,5 @@ enum SortTypes : Int{
         case .merge : return "Merge sort"
         case .quick : return "Quick sort"
         }
-    }
-    
-    static var count : Int {return 4}
+    }    
 }

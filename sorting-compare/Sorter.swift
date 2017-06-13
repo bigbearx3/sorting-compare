@@ -84,8 +84,7 @@ class Sorter{
         let mid = lo + (hi - lo) / 2;
         mSort(arr: &arr, lo: lo, hi: mid, buf: &buf)
         mSort(arr: &arr, lo: mid + 1, hi: hi, buf : &buf)
-        buf = Array(arr[lo...hi])        
-        print(buf)
+        buf = Array(arr[lo...hi])      
         var pos1 = lo
         var pos2 = mid + 1
         var k = lo

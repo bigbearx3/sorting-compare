@@ -10,7 +10,7 @@ class Util{
         var array = Array(repeating: 0, count: size)
         var i = 0
         while i < array.count{
-            array[i] = Int(arc4random_uniform(100000))
+            array[i] = Int(arc4random_uniform(10000))
                 i += 1
         }
         return array
@@ -28,13 +28,13 @@ class Util{
         var array = Array(repeating: 0, count: size)
         var i = 0
         while i < array.count{
-            array[i] = i + Int(arc4random_uniform(1000))
+            array[i] = i + Int(arc4random_uniform(100))
                 i += 1
         }
         return array
     }
     
-    static func getUnSortedArray(size : Int) -> [Int]{
+    static func getUnsortedArray(size : Int) -> [Int]{
         return getRandomArray(size : size)
     }
     
